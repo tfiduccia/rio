@@ -22,3 +22,4 @@ def test_service_export_image(nspc, service):
 def test_service_export_scale(nspc, service):
     results = pullscale(nspc, service)
     assert results == '1'
+
